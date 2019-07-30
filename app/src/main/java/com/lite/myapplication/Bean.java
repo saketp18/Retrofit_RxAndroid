@@ -1,17 +1,12 @@
 package com.lite.myapplication;
 
 /**
- * Created by Saket on 30,July,2019
+ * Created by Saket on 28,July,2019
  */
-public class Beans {
+public class Bean {
 
     private int id;
     private String title;
-
-    public Beans(int id, String title) {
-        this.id = id;
-        this.title = title;
-    }
 
     public int getId() {
         return id;
@@ -31,7 +26,7 @@ public class Beans {
 
     @Override
     public String toString() {
-        return "Beans{" +
+        return "Bean{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 '}';
